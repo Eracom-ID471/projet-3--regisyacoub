@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
 
-$backgroundColor: #ffffff;
-$bodyColor: #000000;
-$bodyFont: "Comic Sans MS", "Comic Sans", cursive;
-$secondColor: #f8ea1b;
-$textcolor: #009fe3;
+$backgroundColor: #FFF;
+$bodyColor: #242424;
+$bodyFont: 'IBM Plex Sans', sans-serif;
+$secondColor: #007A87;
+$textcolor: #242424
 
 .container-fluid{
   padding: 0;
@@ -24,8 +24,9 @@ header {
 }
 
 .logo{
-  height: 10rem;
-  margin: 1rem;
+  height: 7rem;
+  margin: 0.5rem;
+  display: block;
 }
 
 .menu a{
@@ -122,4 +123,8 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
+}
+
+a{
+  color: $textcolor;
 }
