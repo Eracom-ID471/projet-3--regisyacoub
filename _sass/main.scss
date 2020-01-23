@@ -107,6 +107,7 @@ header {
   font-weight: lighter;
   width: 13rem;
   height: auto;
+  border-radius: 5px;
 }
 
 footer {
@@ -128,4 +129,8 @@ footer {
 
 a{
   color: $textcolor;
+}
+
+img{
+  border-radius: 2px;
 }
