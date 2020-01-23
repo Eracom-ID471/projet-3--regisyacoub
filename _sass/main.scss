@@ -17,12 +17,14 @@ body {
 }
 
 header {
+  z-index: 99999;
   background: $secondColor;
-  height: 12.5vh;
+  height: 13.5vh;
+  width: 105rem;
 }
 
 .logo{
-  height: 5rem;
+  height: 10rem;
   margin: 1rem;
 }
 
@@ -32,12 +34,12 @@ header {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .menu{
   text-align: right;
-  margin: 2.5rem 0.5rem 2rem 0rem;
+  margin: 3rem 2.5rem 0rem 7rem;
 }
 
 .carrousel{
@@ -84,14 +86,8 @@ header {
 .img-article{
   width: 20rem;
   height: auto;
+  margin-bottom: 1rem;
 
-}
-
-footer{
-  padding: inherit;
-  text-align: center;
-  background: $secondColor;
-  color: $textcolor;
 }
 
 .content{
@@ -102,4 +98,28 @@ footer{
 
 .marge{
   margin: 10rem;
+}
+
+.mini{
+  margin-left: 10rem;
+  background-color: white;
+  padding: 0.5rem;
+  font-weight: lighter;
+  width: 13rem;
+  height: auto;
+}
+
+footer {
+  padding: inherit;
+  text-align: center;
+  background: $secondColor;
+  color: $textcolor;
+  background-size: auto;
+  justify-content: center;
+  border-radius: 1px;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
