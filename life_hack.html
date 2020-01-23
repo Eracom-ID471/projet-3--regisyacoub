@@ -1,14 +1,14 @@
 ---
 layout: default
-title: "Cuisine"
+title: "Life Hack"
 ---
 
 <section class="article container-fluid">
   <div class="row">
     {% for post in site.posts %}
-      {% if post.categorie =="Cuisine" %}
+      {% if post.categorie =="Life Hack" %}
       <div class="col-4 ">
-        <a class="link" href="{{Cuisine.url  | relative_url }}">
+        <a class="link" href="{{life_hack.url  | relative_url }}">
             <img class="img-article" src="{{ post.image | relative_url}}" />
             <h1>{{ post.sous-categorie }}</h1>
             <h2>{{ post.titre }}</h2>

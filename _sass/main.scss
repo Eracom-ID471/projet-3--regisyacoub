@@ -1,9 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$bodyFont: "Comic Sans MS", "Comic Sans", cursive;
+$secondColor: #f8ea1b;
+$textcolor: #009fe3;
+
+.container-fluid{
+  padding: 0;
+}
 
 body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
+}
+
+header {
+  background: $secondColor;
+  height: 12.5vh;
+}
+
+.logo{
+  height: 5rem;
+  margin: 1rem;
+}
+
+.menu a{
+  text-decoration: none;
+  color: $textcolor;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.menu{
+  text-align: right;
+  margin: 2.5rem 0.5rem 2rem 0rem;
+}
+
+.carrousel{
+  height: 40vh;
+}
+
+.carrousel h5, .carrousel p{
+  color: $textcolor!important;
+}
+
+.carousel-inner, .carousel-item{
+  height: 100%;
+}
+
+.couleur-opacity{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: $secondColor;
+  opacity:0.55;
+}
+
+.categorie-slider{
+  font-size: 6rem;
+  font-weight: 800;
+}
+
+.titre-slider{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.texte-slider{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.article{
+  padding: 5rem;
+}
+
+.img-article{
+  width: 20rem;
+  height: auto;
+
+}
+
+footer{
+  padding: inherit;
+  text-align: center;
+  background: $secondColor;
+  // height: 12.5vh;
+  color: $textcolor;
 }
