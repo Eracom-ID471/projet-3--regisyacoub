@@ -4,9 +4,9 @@ $backgroundColor: #FFF;
 $bodyColor: #242424;
 $bodyFont: 'IBM Plex Sans', sans-serif;
 $secondColor: #007A87;
-$textcolor: #242424
+$textcolor: #242424;
 
-.container-fluid{
+.container-fluid {
   padding: 0;
 }
 
@@ -19,7 +19,7 @@ body {
 header {
   z-index: 99999;
   background: $secondColor;
-  height: 13.5vh;
+  height: 15vh;
   width: auto;
 }
 
@@ -40,7 +40,7 @@ header {
 
 .menu{
   text-align: right;
-  margin: 3rem 2.5rem 0rem 7rem;
+  margin: 3rem 9rem 0rem 35rem;
 }
 
 .carrousel{
@@ -102,7 +102,6 @@ header {
 }
 
 .mini{
-  margin-left: 10rem;
   background-color: white;
   padding: 0.5rem;
   font-weight: lighter;
@@ -115,6 +114,8 @@ footer {
   text-align: center;
   background: $secondColor;
   color: $textcolor;
+  position: fixed;
+  bottom: 0;
   background-size: auto;
   justify-content: center;
   border-radius: 1px;
