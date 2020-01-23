@@ -8,7 +8,7 @@ title: "Animaux"
     {% for post in site.posts %}
     {% if post.categorie =="Animaux" %}
     <div class="col-4 ">
-      <a class="link" href="{{animaux.url  | relative_url }}">
+      <a class="link" href="{{post.url  | relative_url }}">
           <img class="img-article" src="{{ post.image | relative_url}}" />
           <h1>{{ post.sous-categorie }}</h1>
           <h2>{{ post.titre }}</h2>
